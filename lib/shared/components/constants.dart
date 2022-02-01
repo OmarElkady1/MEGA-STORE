@@ -18,8 +18,8 @@ void signOut(context) {
   // ShopCubit.get(context).favoritesModel=[];
 
   model!.data!.name='';
-  model!.data!.email='';
-  model!.data!.phone='';
+  model.data!.email='';
+  model.data!.phone='';
   navigateAndFinish(context, ShopLoginScreen(),);
   ShopCubit.get(context).currentIndex=0;
 
